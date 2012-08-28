@@ -1,0 +1,273 @@
+/* CSS Document */
+*{
+margin:0;
+padding:0;
+
+}
+
+body{
+background:#111 url(Snyders_Dogs_fighting.jpg) no-repeat ;
+background-position:60% 0%;
+margin-bottom:100px;
+}
+
+
+#header p{
+padding:5px 5px;
+margin:0;
+ }
+
+#header p.sub-header {
+font-family:arial;
+font-size:17px;
+background:#223366;
+height:28px;
+padding:0;
+padding-left:5px
+}
+
+ul#navBar{
+	font-family:arial;
+	color:white;
+	list-style:none;
+	padding:0;
+	font-weight:bold;
+	float:left;
+	position:absolute;
+	left: 382px; top: 43px;
+	z-index:999
+}
+
+ul#navBar ul{
+	list-style:none;
+	padding:0
+}
+
+ul#navBar li{
+	position:relative;
+	float:left;
+	width:160px;
+	background:#223366;
+	text-align:center;
+	padding:4px 0;
+	cursor:default
+}
+
+ul#navBar li ul{
+	position:relative;
+	top: 5px
+}
+
+ul#navBar li ul{
+	display:none;
+}
+
+ul#navBar li ul li{
+	float:none;
+	padding:0;
+	cursor:pointer
+}
+/*
+ul#navBar li:hover ul{
+	display:block;
+	float:none
+}
+*/
+ul#navBar a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:5px
+}
+
+ul#navBar a:hover{
+	background:#36a647
+}
+
+.sub-header, #navBar{
+	color:white;
+	font-weight:bold
+	
+}
+
+/* styling for carosel begin here */
+#time_header{
+height:27px;
+
+}
+
+
+div.scroller { 
+/* modify width and height of scrolling section if necessary	*/		
+	width: 630px; 
+	height: 84px;
+	overflow:hidden;
+	border:1px solid #cccccc;
+	margin:3px auto 0;
+	background:#fff;
+	}
+	
+div.scroller div.section {
+	/* modify width and height of each section as needed (should match the size of the scroller window)	*/			
+	height:50px;
+	overflow:hidden;
+	float:left;
+	padding:1em;		
+	}
+
+div.scroller div.content {
+	width: 3100px;
+	background:#FFFFFF;
+	}
+
+
+.pointer{
+position:absolute;
+border:none;
+left:341px;
+top:54px;
+margin:0;
+}
+
+/* styling for carosel end here */
+
+#main{
+background: #ffffe6;
+width:690px;
+margin:100px auto 0px;
+border:solid 1px #000000;
+border-bottom:none;
+position:relative;
+}
+
+#footer{
+background: #ffffe6 url(funnyfaces62.jpg) no-repeat;
+background-position: bottom;
+height:253px;
+width:690px;
+margin: 0 auto;
+
+}
+
+#footer a{
+position:relative;
+top:225px;
+
+margin-left:20px;
+font-size:20px;
+color:#000;
+}
+
+.dog_foot{
+background:#FFFFE6 url(funnyfaces61.jpg)  bottom no-repeat; 
+width:690px;
+margin: 0 auto;
+border-left:#000 1px solid;
+border-right:#000 1px solid;
+}
+
+img{
+margin:27px 10px 0 20px;
+border:solid 1px #000;
+float:left;
+
+}
+
+.img_bw{
+margin:27px 10px 0 20px;
+padding:5px;
+border:solid 1px #000;
+float:left;
+background:#fff;
+}
+
+p{
+margin:20px;
+margin-bottom:0;
+line-height:1.35em
+}
+
+h1{
+text-align:center;
+font-size:30px;
+padding-top:10px
+}
+
+h2{
+text-align:center;
+
+}
+
+.second{
+position:absolute;
+top:-22px;
+left:30px;
+}
+
+.second a{
+
+display:block;
+float:left;
+height:20px;
+margin:5px;
+margin-top:0;
+margin-bottom:0;
+text-decoration:none;
+background:#FFFFE6;
+border:#000 solid 1px;
+border-bottom:none;
+padding:0 5px;
+color:#000;
+}
+
+/* These are sub-menus */
+
+.scroller .content img{
+	margin:0;
+	border:none
+}
+
+ul#navBar li{
+	cursor:default;
+	float:left;
+}
+
+ul#navBar li:hover{
+	background: none repeat scroll 0 0 #223366;
+}
+
+ul#navBar li a{
+	display:block;
+	padding:5px;
+	color:white;
+	text-decoration:none
+	
+}
+
+ul#navBar ul{
+	position:relative;
+	top:5px
+	
+}
+
+#header .header{
+background: none repeat scroll 0 0 #222222;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFBF0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#wrapper{
+	display:none
+}
+
+#species div a{
+	cursor:pointer
+}
+
+#species .here{
+height:21px
+}
+
+
